@@ -33,15 +33,21 @@
   "wrap_guides": [80],
   "tab_size": 2,
   "icon_theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "Zed (Default)",
-    "dark": "Zed (Default)",
+    "dark": "Material Icon Theme",
   },
   "ui_font_size": 16,
   "buffer_font_size": 16.0,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
+    "light": "One Light",
     "dark": "Catppuccin Frappé",
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "max_severity": "warning",
+    },
   },
 }
