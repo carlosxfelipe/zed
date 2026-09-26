@@ -7,7 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.5",
@@ -22,6 +32,7 @@
     "font_size": 14.0,
   },
   "project_panel": {
+    "dock": "left",
     "auto_fold_dirs": false,
   },
   "base_keymap": "VSCode",
